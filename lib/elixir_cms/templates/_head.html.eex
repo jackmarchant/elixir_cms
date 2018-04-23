@@ -2,5 +2,6 @@
   <meta charset="utf-8">
   <title>ElixirCMS - <%= @title %></title>
 
-  <link rel="stylesheet" href="<%= path(@conn, "/assets/style.css") %>">
+  <link rel="stylesheet" href="<%= path(@conn, "/assets/bootstrap.4.0.0.min.css") %>" />
+  <link rel="stylesheet" href="<%= path(@conn, "/assets/dashboard.css") %>" />
 </head>
