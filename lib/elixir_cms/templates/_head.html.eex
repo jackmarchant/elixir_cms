@@ -1,0 +1,6 @@
+<head>
+  <meta charset="utf-8">
+  <title>ElixirCMS - <%= @title %></title>
+
+  <link rel="stylesheet" href="<%= path(@conn, "/assets/style.css") %>">
+</head>
